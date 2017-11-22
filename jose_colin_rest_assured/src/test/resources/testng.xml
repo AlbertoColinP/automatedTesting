@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="My test suite">
+
+	<test name="my first test">
+		<parameter name="urlGet" value="https://jsonplaceholder.typicode.com/users"></parameter>
+		<parameter name="urlPost" value="https://jsonplaceholder.typicode.com/posts"></parameter>
+		<classes>
+			<class name="com.globantu.automation.jose_colin.TestGet"/>
+			<class name="com.globantu.automation.jose_colin.TestPost"/>
+		</classes>
+
+		<!-- <groups> -->
+
+		<!-- <run> -->
+
+		<!-- <include name="grupo1"></include> -->
+		<!-- </run> -->
+		<!-- </groups> -->
+	</test>
+
+</suite>
