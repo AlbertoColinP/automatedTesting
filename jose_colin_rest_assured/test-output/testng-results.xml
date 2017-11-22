@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My test suite" duration-ms="4586" started-at="2017-11-22T16:24:30Z" finished-at="2017-11-22T16:24:35Z">
+    <groups>
+    </groups>
+    <test name="my first test" duration-ms="4586" started-at="2017-11-22T16:24:30Z" finished-at="2017-11-22T16:24:35Z">
+      <class name="com.globantu.automation.jose_colin.TestGet">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.globantu.automation.jose_colin.TestGet@59f99ea]" name="setUp" is-config="true" duration-ms="217" started-at="2017-11-22T10:24:30Z" finished-at="2017-11-22T10:24:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://jsonplaceholder.typicode.com/users]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="basicPingTest()[pri:0, instance:com.globantu.automation.jose_colin.TestGet@59f99ea]" name="basicPingTest" duration-ms="1067" started-at="2017-11-22T10:24:30Z" finished-at="2017-11-22T10:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicPingTest -->
+        <test-method status="PASS" signature="validWithSchema()[pri:0, instance:com.globantu.automation.jose_colin.TestGet@59f99ea]" name="validWithSchema" duration-ms="541" started-at="2017-11-22T10:24:31Z" finished-at="2017-11-22T10:24:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validWithSchema -->
+        <test-method status="PASS" signature="validateContent()[pri:0, instance:com.globantu.automation.jose_colin.TestGet@59f99ea]" name="validateContent" duration-ms="931" started-at="2017-11-22T10:24:32Z" finished-at="2017-11-22T10:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContent -->
+      </class> <!-- com.globantu.automation.jose_colin.TestGet -->
+      <class name="com.globantu.automation.jose_colin.TestPost">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.globantu.automation.jose_colin.TestPost@27efef64]" name="setUp" is-config="true" duration-ms="0" started-at="2017-11-22T10:24:33Z" finished-at="2017-11-22T10:24:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://jsonplaceholder.typicode.com/posts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createAndDelete()[pri:0, instance:com.globantu.automation.jose_colin.TestPost@27efef64]" name="createAndDelete" duration-ms="1024" started-at="2017-11-22T10:24:33Z" finished-at="2017-11-22T10:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndDelete -->
+        <test-method status="PASS" signature="testPostBody()[pri:0, instance:com.globantu.automation.jose_colin.TestPost@27efef64]" name="testPostBody" duration-ms="275" started-at="2017-11-22T10:24:34Z" finished-at="2017-11-22T10:24:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostBody -->
+        <test-method status="PASS" signature="testPostStatus()[pri:0, instance:com.globantu.automation.jose_colin.TestPost@27efef64]" name="testPostStatus" duration-ms="513" started-at="2017-11-22T10:24:34Z" finished-at="2017-11-22T10:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostStatus -->
+      </class> <!-- com.globantu.automation.jose_colin.TestPost -->
+    </test> <!-- my first test -->
+  </suite> <!-- My test suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My test suite]">
+  <test name="my first test(failed)">
+    <parameter name="urlPost" value="https://jsonplaceholder.typicode.com/posts"/>
+    <parameter name="urlGet" value="https://jsonplaceholder.typicode.com/users"/>
+    <classes>
+      <class name="com.globantu.automation.jose_colin.TestGet">
+        <methods>
+          <include name="validWithSchema"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.globantu.automation.jose_colin.TestGet -->
+    </classes>
+  </test> <!-- my first test(failed) -->
+</suite> <!-- Failed suite [My test suite] -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="My test suite">
+
+	<parameter name="browser" value="chrome"></parameter>
+	<test name="my first test">
+	
+		<classes>
+			<class name="com.training.test.TestStarbucks"></class>
+		</classes>
+		
+<!-- 		<groups> -->
+		
+<!-- 			<run> -->
+			
+<!-- 				<include name="grupo1"></include> -->
+<!-- 			</run> -->
+<!-- 		</groups> -->
+	</test>
+
+</suite>

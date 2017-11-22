@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My test suite" duration-ms="241000" started-at="2017-11-10T17:19:43Z" finished-at="2017-11-10T17:23:44Z">
+    <groups>
+    </groups>
+    <test name="my first test" duration-ms="241000" started-at="2017-11-10T17:19:43Z" finished-at="2017-11-10T17:23:44Z">
+      <class name="com.training.test.TestStarbucks">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:com.training.test.TestStarbucks@6442b0a6]" name="beforeSuite" is-config="true" duration-ms="41319" started-at="2017-11-10T11:19:43Z" finished-at="2017-11-10T11:20:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="coffeeTest()[pri:0, instance:com.training.test.TestStarbucks@6442b0a6]" name="coffeeTest" duration-ms="128320" started-at="2017-11-10T11:20:24Z" finished-at="2017-11-10T11:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coffeeTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.test.TestStarbucks@6442b0a6]" name="afterSuite" is-config="true" duration-ms="627" started-at="2017-11-10T11:22:33Z" finished-at="2017-11-10T11:22:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:com.training.test.TestStarbucks@6442b0a6]" name="beforeSuite" is-config="true" duration-ms="69956" started-at="2017-11-10T11:22:33Z" finished-at="2017-11-10T11:23:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="testMenu()[pri:0, instance:com.training.test.TestStarbucks@6442b0a6]" name="testMenu" duration-ms="152" started-at="2017-11-10T11:23:43Z" finished-at="2017-11-10T11:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenu -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.training.test.TestStarbucks@6442b0a6]" name="afterSuite" is-config="true" duration-ms="609" started-at="2017-11-10T11:23:44Z" finished-at="2017-11-10T11:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.training.test.TestStarbucks -->
+    </test> <!-- my first test -->
+  </suite> <!-- My test suite -->
+</testng-results>
